@@ -1,1 +1,7 @@
 # Idiosyncratic-Volatility
+
+Idiosyncratic Volatility (IVol) delves into the intricacies of individual stock risks, sifting out broader market influences. In essence, it quantifies the unpredictable variances in a stock's returns, encapsulating movements that sidestep systemic market and style determinants. In the realm of financial econometrics, idiosyncratic volatility represents the micro-level disturbances inherent to an individual asset. It encapsulates the risk residuals that are orthogonal to systematic factors, signifying the asset-specific uncertainties unexplained by broad market dynamics. By isolating this component, analysts unveil a critical dimension of risk assessment, providing a granular lens to discern deviations from expected asset behavior based on prevailing market conditions.
+
+Harnessing the Fama-French three-factor model, we segregate the daily stock returns into distinct components: market risk, size effect, and value effect. The residual, after accounting for these factors, yields the idiosyncratic returns. By computing the standard deviation of these residuals, we derive the IVol, offering a view into stock-specific anomalies.
+
+This code can be used to extract Idiosyncratic Volatility for individual stocks on a yearly basis, which may prove useful in cross-sectional and time series regressions examining the relationship between particular features of assets.
